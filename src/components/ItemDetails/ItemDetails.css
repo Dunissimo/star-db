@@ -1,0 +1,33 @@
+.item-details {
+  width: 50%;
+  height: auto;
+  background-color: #303030;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.item-details > .img-block {
+  width: 70%;
+  height: auto;
+  margin-right: 0;
+  padding: 15px;
+
+}
+.item-details > .img-block > img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #000;
+}
+
+
+.item-details >.descr-block {
+  width: 100%;
+  padding: 15px;
+
+}
+.item-details .descr-block h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}

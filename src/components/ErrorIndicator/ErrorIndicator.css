@@ -1,0 +1,18 @@
+.error-indicator{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(255, 196, 0);
+  padding: 20px 0;
+}
+.error-indicator > h2 {
+  font-size: 4rem;
+}
+.error-indicator > span {
+  font-size: 2rem;
+}
+.error-indicator > .but {
+  color: rgb(172, 134, 10);
+}
+

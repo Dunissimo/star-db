@@ -1,0 +1,14 @@
+.item-list {
+  width: 40%;
+  display: block;
+  margin-right: 5rem;
+}
+.item-list > li {
+  padding: 17px 10px;
+  background-color: #303030;
+  border: 1px solid rgba(144, 144, 144, .2);
+  transition: all .3s ease;
+}
+.item-list > li:hover{
+  background-color: #3d3c3c;
+}
